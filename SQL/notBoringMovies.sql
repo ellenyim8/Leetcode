@@ -1,0 +1,5 @@
+-- 620 - Not boring movies
+SELECT * FROM CINEMA 
+WHERE MOD(ID, 2)!=0 AND DESCRIPTION!='boring'
+ORDER BY RATING DESC
+; 
